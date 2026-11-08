@@ -1,0 +1,346 @@
+{
+  "kind": "sequence",
+  "grid": [
+    0.5,
+    0.425,
+    0.3612,
+    0.3071,
+    0.261,
+    0.2219,
+    0.1886,
+    0.1603,
+    0.1362,
+    0.1158,
+    0.0984,
+    0.0837,
+    0.0711,
+    0.0605,
+    0.0514,
+    0.0437,
+    0.0371,
+    0.0316,
+    0.0268,
+    0.0228
+  ],
+  "runs": [
+    {
+      "minsup": 0.5,
+      "wall_s": 0.2,
+      "n_patterns": 602,
+      "timeout": false,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.425,
+      "wall_s": 0.253,
+      "n_patterns": 2031,
+      "timeout": false,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.3612,
+      "wall_s": 0.354,
+      "n_patterns": 7192,
+      "timeout": false,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.3071,
+      "wall_s": 0.621,
+      "n_patterns": 26943,
+      "timeout": false,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.261,
+      "wall_s": 1.415,
+      "n_patterns": 95918,
+      "timeout": false,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.2219,
+      "wall_s": 4.587,
+      "n_patterns": 303197,
+      "timeout": false,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.1886,
+      "wall_s": 29.314,
+      "n_patterns": 898717,
+      "timeout": false,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.1603,
+      "wall_s": 83.475,
+      "n_patterns": 2463602,
+      "timeout": false,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.1362,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan",
+      "partial_output_lines_before_timeout": 4040516,
+      "n_patterns_lower_bound": 4040516
+    },
+    {
+      "minsup": 0.1158,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.0984,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan",
+      "partial_output_lines_before_timeout": 5347685,
+      "n_patterns_lower_bound": 5347685
+    },
+    {
+      "minsup": 0.0837,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.0711,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.0605,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan",
+      "partial_output_lines_before_timeout": 8400220,
+      "n_patterns_lower_bound": 8400220
+    },
+    {
+      "minsup": 0.0514,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.0437,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.0371,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.0316,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.0268,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan"
+    },
+    {
+      "minsup": 0.0228,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "PrefixSpan",
+      "partial_output_lines_before_timeout": 15613394,
+      "n_patterns_lower_bound": 15613394
+    },
+    {
+      "minsup": 0.5,
+      "wall_s": 0.234,
+      "n_patterns": 109,
+      "timeout": false,
+      "algo": "VMSP"
+    },
+    {
+      "minsup": 0.425,
+      "wall_s": 0.294,
+      "n_patterns": 417,
+      "timeout": false,
+      "algo": "VMSP"
+    },
+    {
+      "minsup": 0.3612,
+      "wall_s": 0.413,
+      "n_patterns": 1406,
+      "timeout": false,
+      "algo": "VMSP"
+    },
+    {
+      "minsup": 0.3071,
+      "wall_s": 1.173,
+      "n_patterns": 4694,
+      "timeout": false,
+      "algo": "VMSP"
+    },
+    {
+      "minsup": 0.261,
+      "wall_s": 27.508,
+      "n_patterns": 13493,
+      "timeout": false,
+      "algo": "VMSP"
+    },
+    {
+      "minsup": 0.2219,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP"
+    },
+    {
+      "minsup": 0.1886,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.1603,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.1362,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.1158,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0984,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0837,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0711,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0605,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0514,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0437,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0371,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0316,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0268,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    },
+    {
+      "minsup": 0.0228,
+      "wall_s": null,
+      "timeout": true,
+      "n_patterns": null,
+      "algo": "VMSP",
+      "inferred_by_monotonicity": true,
+      "note": "support threshold below 0.2219, where VMSP exceeded the 120 s budget; pattern count and runtime are monotone in minsup, so timeout is inferred and was spot-verified"
+    }
+  ],
+  "n_done": 40,
+  "n_total": 40,
+  "grid_total_wall_s": 3389.84
+}

@@ -1,0 +1,58 @@
+{
+  "source": {
+    "corpus": "WebArena GPT-4 CoT official release 2 (809 tasks; Agent-Eval-Refine extraction, HF)",
+    "signatures": 216,
+    "chains": 1151
+  },
+  "head_chain_err_rate": {
+    "top5": {
+      "n": 5,
+      "n_with_none_err": 4,
+      "frac_with_none_err": 0.8,
+      "n_with_any_err": 4,
+      "frac_with_any_err": 0.8
+    },
+    "top10": {
+      "n": 10,
+      "n_with_none_err": 8,
+      "frac_with_none_err": 0.8,
+      "n_with_any_err": 8,
+      "frac_with_any_err": 0.8
+    },
+    "top20": {
+      "n": 20,
+      "n_with_none_err": 17,
+      "frac_with_none_err": 0.85,
+      "n_with_any_err": 17,
+      "frac_with_any_err": 0.85
+    },
+    "top50": {
+      "n": 50,
+      "n_with_none_err": 45,
+      "frac_with_none_err": 0.9,
+      "n_with_any_err": 45,
+      "frac_with_any_err": 0.9
+    },
+    "top100": {
+      "n": 100,
+      "n_with_none_err": 81,
+      "frac_with_none_err": 0.81,
+      "n_with_any_err": 81,
+      "frac_with_any_err": 0.81
+    }
+  },
+  "all_chains": {
+    "n": 1151,
+    "n_with_none_err": 393,
+    "frac_with_none_err": 0.3414,
+    "n_with_any_err": 393,
+    "frac_with_any_err": 0.3414,
+    "n_perfect_with_none_err": 334,
+    "n_perfect": 536
+  },
+  "all_signatures": {
+    "n": 216,
+    "n_with_err_item": 55,
+    "frac_with_err_item": 0.2546
+  }
+}

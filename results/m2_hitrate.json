@@ -1,0 +1,63 @@
+{
+  "matching_rules": {
+    "C01": "all symbols in {cd:ok, cd:err}",
+    "C02": "contains pytest:err or python:err",
+    "C03": "unmatchable by construction (absence of test execution)",
+    "C04": "contains pip:err or export:err",
+    "C05": ">=2 distinct err symbols from {cd,cat,grep,sed,git,ls,find,head,rm,cp,echo}",
+    "C06": "contains other:err"
+  },
+  "first_hit_rank": {
+    "C01": 39445,
+    "C02": 36,
+    "C03": null,
+    "C04": 1141,
+    "C05": 6,
+    "C06": 419
+  },
+  "hit_rate_at_k": {
+    "10": {
+      "matched": [
+        "C05"
+      ],
+      "hit_rate_6": 0.1667,
+      "hit_rate_expr": 0.2
+    },
+    "20": {
+      "matched": [
+        "C05"
+      ],
+      "hit_rate_6": 0.1667,
+      "hit_rate_expr": 0.2
+    },
+    "50": {
+      "matched": [
+        "C02",
+        "C05"
+      ],
+      "hit_rate_6": 0.3333,
+      "hit_rate_expr": 0.4
+    },
+    "100": {
+      "matched": [
+        "C02",
+        "C05"
+      ],
+      "hit_rate_6": 0.3333,
+      "hit_rate_expr": 0.4
+    },
+    "500": {
+      "matched": [
+        "C02",
+        "C05",
+        "C06"
+      ],
+      "hit_rate_6": 0.5,
+      "hit_rate_expr": 0.6
+    }
+  },
+  "auqc_expr": 0.3823,
+  "expert_precision_top20": 0.1,
+  "redundancy": 0.0,
+  "n_chains": 72972
+}

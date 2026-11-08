@@ -1,0 +1,317 @@
+=================================================================
+GPU 0: NVIDIA GeForce RTX 3060 Ti
+     Multi-Processor Count: 38
+     Max Threads Per Multi-Processor: 1536
+     Warp Size: 32
+     Max Threads Per Block: 1024
+     Compute Capability: 8.6
+     Number of Multi-Processors: 38
+     Number of CUDA Cores Per SM: 128
+     Total Number of CUDA Cores: 4864
+
+CPU: 12th Gen Intel(R) Core(TM) i9-12900
+     Number of Physical Cores: 16
+     Number of Logical Cores: 24
+
+Visual Studio: 2022 (v143), MSC_VER: 1944
+CUDA Version: 12.5
+=================================================================
+transSetFile: ..\TransactionSets\webarena_mine.txt
+dimension: 19
+transNum: 569
+itemIDmin: 1
+itemIDmax: 19
+transLengthMin: 0
+transLengthMax: 10
+transLengthMean: 4.51494
+
+UptoStage: 19
+preprocessing_time(s): 0
+GPUtaskPercentage: 0.0414791%
+=================================================================
+runtimePerStage(s): 0.0001474, 0.0001238, 0.0001092, 9.41e-05, 6.63e-05, 7.02e-05, 9.91e-05, 6.85e-05, 6.73e-05, 0.0001201, 0.0001103, 0.0001259, 0.0001909, 0.0003089, 0.0006401, 0.0006309, 0.0007891, 0.0008946, 0.005134,
+
+frequencyThrePerStage: 565, 465, 417, 154, 132, 128, 115, 105, 105, 93, 78, 78, 64, 25, 15, 11, 10, 8, 1,
+supportThrePerStage: 0.99297, 0.817223, 0.732865, 0.27065, 0.231986, 0.224956, 0.202109, 0.184534, 0.184534, 0.163445, 0.137083, 0.137083, 0.112478, 0.0439367, 0.026362, 0.0193322, 0.0175747, 0.0140598, 0.00175747,
+
+dimensionPerStage: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+
+MFIsNumPerStage: 1, 2, 2, 2, 3, 4, 5, 5, 6, 9, 8, 9, 12, 17, 21, 25, 28, 30, 27,
+itemsNumPerStage: 1, 2, 3, 5, 6, 9, 13, 14, 17, 24, 27, 29, 42, 72, 102, 129, 147, 159, 193,
+
+MFIsNumPerStage_withRemoveDuplicate: 1, 2, 2, 2, 3, 4, 5, 5, 6, 9, 8, 9, 12, 17, 21, 25, 28, 30, 27,
+itemsNumPerStage_withRemoveDuplicate: 1, 2, 3, 5, 6, 9, 13, 14, 17, 24, 27, 29, 42, 72, 102, 129, 147, 159, 193,
+====================== 1th stage MFIs Number: 1 ======================
+1th: 1 { 1 }   support: 0.99297  frequency: 565
+
+frequencyThreshold: 565
+====================== 2th stage MFIs Number: 2 ======================
+1th: 1 { 1 }   support: 0.99297  frequency: 565
+2th: 1 { 2 }   support: 0.817223  frequency: 465
+
+frequencyThreshold: 465
+====================== 3th stage MFIs Number: 2 ======================
+1th: 2 { 2 1 }   support: 0.815466  frequency: 464
+2th: 1 { 3 }   support: 0.732865  frequency: 417
+
+frequencyThreshold: 417
+====================== 4th stage MFIs Number: 2 ======================
+1th: 3 { 3 2 1 }   support: 0.595782  frequency: 339
+2th: 2 { 4 1 }   support: 0.27065  frequency: 154
+
+frequencyThreshold: 154
+====================== 5th stage MFIs Number: 3 ======================
+1th: 3 { 3 2 1 }   support: 0.595782  frequency: 339
+2th: 2 { 4 1 }   support: 0.27065  frequency: 154
+3th: 1 { 5 }   support: 0.231986  frequency: 132
+
+frequencyThreshold: 132
+====================== 6th stage MFIs Number: 4 ======================
+1th: 3 { 3 2 1 }   support: 0.595782  frequency: 339
+2th: 2 { 4 1 }   support: 0.27065  frequency: 154
+3th: 2 { 5 1 }   support: 0.230228  frequency: 131
+4th: 2 { 6 1 }   support: 0.224956  frequency: 128
+
+frequencyThreshold: 128
+====================== 7th stage MFIs Number: 5 ======================
+1th: 3 { 3 2 1 }   support: 0.595782  frequency: 339
+2th: 2 { 6 1 }   support: 0.224956  frequency: 128
+3th: 3 { 4 2 1 }   support: 0.217926  frequency: 124
+4th: 3 { 5 2 1 }   support: 0.209139  frequency: 119
+5th: 2 { 7 1 }   support: 0.202109  frequency: 115
+
+frequencyThreshold: 115
+====================== 8th stage MFIs Number: 5 ======================
+1th: 3 { 3 2 1 }   support: 0.595782  frequency: 339
+2th: 3 { 4 2 1 }   support: 0.217926  frequency: 124
+3th: 3 { 5 2 1 }   support: 0.209139  frequency: 119
+4th: 2 { 7 1 }   support: 0.202109  frequency: 115
+5th: 3 { 6 2 1 }   support: 0.200351  frequency: 114
+
+frequencyThreshold: 105
+====================== 9th stage MFIs Number: 6 ======================
+1th: 3 { 3 2 1 }   support: 0.595782  frequency: 339
+2th: 3 { 4 2 1 }   support: 0.217926  frequency: 124
+3th: 3 { 5 2 1 }   support: 0.209139  frequency: 119
+4th: 2 { 7 1 }   support: 0.202109  frequency: 115
+5th: 3 { 6 2 1 }   support: 0.200351  frequency: 114
+6th: 3 { 9 8 1 }   support: 0.184534  frequency: 105
+
+frequencyThreshold: 105
+====================== 10th stage MFIs Number: 9 ======================
+1th: 3 { 3 2 1 }   support: 0.595782  frequency: 339
+2th: 3 { 4 2 1 }   support: 0.217926  frequency: 124
+3th: 3 { 5 2 1 }   support: 0.209139  frequency: 119
+4th: 3 { 6 2 1 }   support: 0.200351  frequency: 114
+5th: 3 { 9 8 1 }   support: 0.184534  frequency: 105
+6th: 3 { 7 2 1 }   support: 0.173989  frequency: 99
+7th: 3 { 6 3 1 }   support: 0.170475  frequency: 97
+8th: 1 { 10 }   support: 0.163445  frequency: 93
+9th: 2 { 5 3 }   support: 0.163445  frequency: 93
+
+frequencyThreshold: 93
+====================== 11th stage MFIs Number: 8 ======================
+1th: 3 { 4 2 1 }   support: 0.217926  frequency: 124
+2th: 4 { 9 8 2 1 }   support: 0.15993  frequency: 91
+3th: 4 { 6 3 2 1 }   support: 0.15993  frequency: 91
+4th: 3 { 10 2 1 }   support: 0.1529  frequency: 87
+5th: 4 { 5 3 2 1 }   support: 0.149385  frequency: 85
+6th: 3 { 4 3 1 }   support: 0.147627  frequency: 84
+7th: 4 { 7 3 2 1 }   support: 0.142355  frequency: 81
+8th: 2 { 11 1 }   support: 0.137083  frequency: 78
+
+frequencyThreshold: 78
+====================== 12th stage MFIs Number: 9 ======================
+1th: 3 { 4 2 1 }   support: 0.217926  frequency: 124
+2th: 4 { 6 3 2 1 }   support: 0.15993  frequency: 91
+3th: 4 { 9 8 2 1 }   support: 0.15993  frequency: 91
+4th: 3 { 10 2 1 }   support: 0.1529  frequency: 87
+5th: 4 { 5 3 2 1 }   support: 0.149385  frequency: 85
+6th: 3 { 4 3 1 }   support: 0.147627  frequency: 84
+7th: 4 { 7 3 2 1 }   support: 0.142355  frequency: 81
+8th: 2 { 11 1 }   support: 0.137083  frequency: 78
+9th: 2 { 12 1 }   support: 0.137083  frequency: 78
+
+frequencyThreshold: 78
+====================== 13th stage MFIs Number: 12 ======================
+1th: 3 { 4 2 1 }   support: 0.217926  frequency: 124
+2th: 4 { 6 3 2 1 }   support: 0.15993  frequency: 91
+3th: 3 { 10 2 1 }   support: 0.1529  frequency: 87
+4th: 4 { 5 3 2 1 }   support: 0.149385  frequency: 85
+5th: 3 { 4 3 1 }   support: 0.147627  frequency: 84
+6th: 4 { 7 3 2 1 }   support: 0.142355  frequency: 81
+7th: 3 { 12 2 1 }   support: 0.128295  frequency: 73
+8th: 5 { 9 8 3 2 1 }   support: 0.119508  frequency: 68
+9th: 3 { 10 3 1 }   support: 0.11775  frequency: 67
+10th: 3 { 12 3 1 }   support: 0.114236  frequency: 65
+11th: 4 { 11 3 2 1 }   support: 0.114236  frequency: 65
+12th: 3 { 13 3 1 }   support: 0.112478  frequency: 64
+
+frequencyThreshold: 64
+====================== 14th stage MFIs Number: 17 ======================
+1th: 4 { 6 3 2 1 }   support: 0.15993  frequency: 91
+2th: 4 { 5 3 2 1 }   support: 0.149385  frequency: 85
+3th: 4 { 11 3 2 1 }   support: 0.114236  frequency: 65
+4th: 5 { 7 4 3 2 1 }   support: 0.0615114  frequency: 35
+5th: 4 { 13 3 2 1 }   support: 0.0579965  frequency: 33
+6th: 4 { 10 4 2 1 }   support: 0.0544815  frequency: 31
+7th: 5 { 12 10 3 2 1 }   support: 0.0544815  frequency: 31
+8th: 6 { 9 8 7 3 2 1 }   support: 0.0527241  frequency: 30
+9th: 4 { 12 5 2 1 }   support: 0.0509666  frequency: 29
+10th: 6 { 9 8 4 3 2 1 }   support: 0.0492091  frequency: 28
+11th: 4 { 10 7 2 1 }   support: 0.0474517  frequency: 27
+12th: 5 { 10 9 8 2 1 }   support: 0.0456942  frequency: 26
+13th: 2 { 14 1 }   support: 0.0439367  frequency: 25
+14th: 3 { 10 5 1 }   support: 0.0439367  frequency: 25
+15th: 3 { 10 5 2 }   support: 0.0439367  frequency: 25
+16th: 4 { 7 5 2 1 }   support: 0.0439367  frequency: 25
+17th: 5 { 9 8 5 2 1 }   support: 0.0439367  frequency: 25
+
+frequencyThreshold: 25
+====================== 15th stage MFIs Number: 21 ======================
+1th: 4 { 13 3 2 1 }   support: 0.0579965  frequency: 33
+2th: 5 { 12 10 3 2 1 }   support: 0.0544815  frequency: 31
+3th: 5 { 9 8 5 2 1 }   support: 0.0439367  frequency: 25
+4th: 4 { 14 3 2 1 }   support: 0.0369069  frequency: 21
+5th: 5 { 12 5 3 2 1 }   support: 0.0369069  frequency: 21
+6th: 5 { 10 7 3 2 1 }   support: 0.0369069  frequency: 21
+7th: 6 { 12 9 8 3 2 1 }   support: 0.0369069  frequency: 21
+8th: 6 { 10 9 8 3 2 1 }   support: 0.0351494  frequency: 20
+9th: 5 { 10 4 3 2 1 }   support: 0.0333919  frequency: 19
+10th: 5 { 12 10 5 2 1 }   support: 0.0316344  frequency: 18
+11th: 5 { 10 5 3 2 1 }   support: 0.029877  frequency: 17
+12th: 7 { 9 8 7 4 3 2 1 }   support: 0.0281195  frequency: 16
+13th: 3 { 12 4 1 }   support: 0.0281195  frequency: 16
+14th: 5 { 7 6 3 2 1 }   support: 0.0281195  frequency: 16
+15th: 5 { 7 5 3 2 1 }   support: 0.0281195  frequency: 16
+16th: 5 { 12 11 3 2 1 }   support: 0.0281195  frequency: 16
+17th: 3 { 15 12 1 }   support: 0.026362  frequency: 15
+18th: 5 { 9 8 6 2 1 }   support: 0.026362  frequency: 15
+19th: 5 { 12 7 3 2 1 }   support: 0.026362  frequency: 15
+20th: 3 { 11 10 1 }   support: 0.026362  frequency: 15
+21th: 6 { 12 10 9 8 2 1 }   support: 0.026362  frequency: 15
+
+frequencyThreshold: 15
+====================== 16th stage MFIs Number: 25 ======================
+1th: 4 { 13 3 2 1 }   support: 0.0579965  frequency: 33
+2th: 4 { 14 3 2 1 }   support: 0.0369069  frequency: 21
+3th: 5 { 10 7 3 2 1 }   support: 0.0369069  frequency: 21
+4th: 5 { 10 4 3 2 1 }   support: 0.0333919  frequency: 19
+5th: 5 { 12 11 3 2 1 }   support: 0.0281195  frequency: 16
+6th: 5 { 7 5 3 2 1 }   support: 0.0281195  frequency: 16
+7th: 5 { 7 6 3 2 1 }   support: 0.0281195  frequency: 16
+8th: 7 { 9 8 7 4 3 2 1 }   support: 0.0281195  frequency: 16
+9th: 5 { 12 7 3 2 1 }   support: 0.026362  frequency: 15
+10th: 6 { 9 8 5 3 2 1 }   support: 0.0228471  frequency: 13
+11th: 6 { 9 8 6 3 2 1 }   support: 0.0228471  frequency: 13
+12th: 5 { 10 7 4 2 1 }   support: 0.0228471  frequency: 13
+13th: 6 { 10 9 8 7 2 1 }   support: 0.0228471  frequency: 13
+14th: 7 { 12 10 9 8 3 2 1 }   support: 0.0228471  frequency: 13
+15th: 5 { 15 12 3 2 1 }   support: 0.0210896  frequency: 12
+16th: 5 { 11 7 3 2 1 }   support: 0.0210896  frequency: 12
+17th: 5 { 12 4 3 2 1 }   support: 0.0210896  frequency: 12
+18th: 4 { 10 6 2 1 }   support: 0.0210896  frequency: 12
+19th: 6 { 10 9 8 4 2 1 }   support: 0.0210896  frequency: 12
+20th: 6 { 12 10 5 3 2 1 }   support: 0.0210896  frequency: 12
+21th: 3 { 16 2 1 }   support: 0.0193322  frequency: 11
+22th: 5 { 10 7 4 3 1 }   support: 0.0193322  frequency: 11
+23th: 5 { 11 10 3 2 1 }   support: 0.0193322  frequency: 11
+24th: 5 { 12 10 7 2 1 }   support: 0.0193322  frequency: 11
+25th: 5 { 11 9 8 2 1 }   support: 0.0193322  frequency: 11
+
+frequencyThreshold: 11
+====================== 17th stage MFIs Number: 28 ======================
+1th: 4 { 13 3 2 1 }   support: 0.0579965  frequency: 33
+2th: 4 { 14 3 2 1 }   support: 0.0369069  frequency: 21
+3th: 5 { 12 11 3 2 1 }   support: 0.0281195  frequency: 16
+4th: 5 { 7 5 3 2 1 }   support: 0.0281195  frequency: 16
+5th: 5 { 7 6 3 2 1 }   support: 0.0281195  frequency: 16
+6th: 7 { 9 8 7 4 3 2 1 }   support: 0.0281195  frequency: 16
+7th: 5 { 12 7 3 2 1 }   support: 0.026362  frequency: 15
+8th: 6 { 9 8 5 3 2 1 }   support: 0.0228471  frequency: 13
+9th: 7 { 12 10 9 8 3 2 1 }   support: 0.0228471  frequency: 13
+10th: 6 { 10 9 8 7 2 1 }   support: 0.0228471  frequency: 13
+11th: 6 { 9 8 6 3 2 1 }   support: 0.0228471  frequency: 13
+12th: 6 { 12 10 5 3 2 1 }   support: 0.0210896  frequency: 12
+13th: 4 { 10 6 2 1 }   support: 0.0210896  frequency: 12
+14th: 6 { 10 9 8 4 2 1 }   support: 0.0210896  frequency: 12
+15th: 5 { 15 12 3 2 1 }   support: 0.0210896  frequency: 12
+16th: 5 { 11 7 3 2 1 }   support: 0.0210896  frequency: 12
+17th: 3 { 16 2 1 }   support: 0.0193322  frequency: 11
+18th: 5 { 11 10 3 2 1 }   support: 0.0193322  frequency: 11
+19th: 5 { 12 10 7 2 1 }   support: 0.0193322  frequency: 11
+20th: 3 { 17 3 1 }   support: 0.0175747  frequency: 10
+21th: 5 { 12 10 7 3 1 }   support: 0.0175747  frequency: 10
+22th: 5 { 12 10 4 3 1 }   support: 0.0175747  frequency: 10
+23th: 4 { 10 6 3 1 }   support: 0.0175747  frequency: 10
+24th: 6 { 12 9 8 7 2 1 }   support: 0.0175747  frequency: 10
+25th: 7 { 12 9 8 4 3 2 1 }   support: 0.0175747  frequency: 10
+26th: 6 { 10 9 8 4 3 1 }   support: 0.0175747  frequency: 10
+27th: 6 { 10 7 4 3 2 1 }   support: 0.0175747  frequency: 10
+28th: 6 { 11 9 8 3 2 1 }   support: 0.0175747  frequency: 10
+
+frequencyThreshold: 10
+====================== 18th stage MFIs Number: 30 ======================
+1th: 4 { 13 3 2 1 }   support: 0.0579965  frequency: 33
+2th: 4 { 14 3 2 1 }   support: 0.0369069  frequency: 21
+3th: 5 { 7 5 3 2 1 }   support: 0.0281195  frequency: 16
+4th: 5 { 12 11 3 2 1 }   support: 0.0281195  frequency: 16
+5th: 7 { 9 8 7 4 3 2 1 }   support: 0.0281195  frequency: 16
+6th: 6 { 9 8 5 3 2 1 }   support: 0.0228471  frequency: 13
+7th: 7 { 12 10 9 8 3 2 1 }   support: 0.0228471  frequency: 13
+8th: 5 { 11 7 3 2 1 }   support: 0.0210896  frequency: 12
+9th: 6 { 12 10 5 3 2 1 }   support: 0.0210896  frequency: 12
+10th: 5 { 15 12 3 2 1 }   support: 0.0210896  frequency: 12
+11th: 5 { 11 10 3 2 1 }   support: 0.0193322  frequency: 11
+12th: 3 { 17 3 1 }   support: 0.0175747  frequency: 10
+13th: 6 { 11 9 8 3 2 1 }   support: 0.0175747  frequency: 10
+14th: 6 { 10 7 4 3 2 1 }   support: 0.0175747  frequency: 10
+15th: 7 { 12 9 8 4 3 2 1 }   support: 0.0175747  frequency: 10
+16th: 4 { 12 7 4 1 }   support: 0.0158172  frequency: 9
+17th: 7 { 12 9 8 7 3 2 1 }   support: 0.0158172  frequency: 9
+18th: 6 { 12 10 7 3 2 1 }   support: 0.0158172  frequency: 9
+19th: 6 { 12 10 4 3 2 1 }   support: 0.0158172  frequency: 9
+20th: 7 { 10 9 8 7 3 2 1 }   support: 0.0158172  frequency: 9
+21th: 5 { 10 6 3 2 1 }   support: 0.0158172  frequency: 9
+22th: 4 { 16 3 2 1 }   support: 0.0158172  frequency: 9
+23th: 7 { 10 9 8 4 3 2 1 }   support: 0.0158172  frequency: 9
+24th: 2 { 18 1 }   support: 0.0140598  frequency: 8
+25th: 6 { 10 9 8 5 2 1 }   support: 0.0140598  frequency: 8
+26th: 4 { 14 7 2 1 }   support: 0.0140598  frequency: 8
+27th: 7 { 9 8 7 6 3 2 1 }   support: 0.0140598  frequency: 8
+28th: 5 { 14 9 8 2 1 }   support: 0.0140598  frequency: 8
+29th: 4 { 12 6 3 1 }   support: 0.0140598  frequency: 8
+30th: 4 { 12 6 2 1 }   support: 0.0140598  frequency: 8
+
+frequencyThreshold: 8
+====================== 19th stage MFIs Number: 27 ======================
+1th: 6 { 14 7 5 3 2 1 }   support: 0.00527241  frequency: 3
+2th: 8 { 12 10 9 8 5 3 2 1 }   support: 0.00527241  frequency: 3
+3th: 9 { 15 12 11 9 8 7 3 2 1 }   support: 0.00351494  frequency: 2
+4th: 6 { 11 10 7 3 2 1 }   support: 0.00351494  frequency: 2
+5th: 7 { 12 10 7 5 3 2 1 }   support: 0.00351494  frequency: 2
+6th: 4 { 18 7 4 1 }   support: 0.00175747  frequency: 1
+7th: 10 { 16 14 10 9 8 7 4 3 2 1 }   support: 0.00175747  frequency: 1
+8th: 7 { 15 12 10 5 3 2 1 }   support: 0.00175747  frequency: 1
+9th: 10 { 15 12 10 9 8 7 6 3 2 1 }   support: 0.00175747  frequency: 1
+10th: 10 { 15 12 10 9 8 7 4 3 2 1 }   support: 0.00175747  frequency: 1
+11th: 9 { 16 10 9 8 7 6 3 2 1 }   support: 0.00175747  frequency: 1
+12th: 7 { 15 12 11 10 3 2 1 }   support: 0.00175747  frequency: 1
+13th: 6 { 17 16 10 3 2 1 }   support: 0.00175747  frequency: 1
+14th: 6 { 17 15 12 3 2 1 }   support: 0.00175747  frequency: 1
+15th: 8 { 13 10 9 8 7 3 2 1 }   support: 0.00175747  frequency: 1
+16th: 4 { 17 14 3 1 }   support: 0.00175747  frequency: 1
+17th: 6 { 14 13 10 3 2 1 }   support: 0.00175747  frequency: 1
+18th: 6 { 14 13 12 3 2 1 }   support: 0.00175747  frequency: 1
+19th: 8 { 18 15 13 12 10 3 2 1 }   support: 0.00175747  frequency: 1
+20th: 8 { 18 15 14 12 11 3 2 1 }   support: 0.00175747  frequency: 1
+21th: 7 { 14 13 9 8 3 2 1 }   support: 0.00175747  frequency: 1
+22th: 5 { 14 6 3 2 1 }   support: 0.00175747  frequency: 1
+23th: 4 { 18 4 2 1 }   support: 0.00175747  frequency: 1
+24th: 8 { 12 11 10 9 8 3 2 1 }   support: 0.00175747  frequency: 1
+25th: 9 { 19 10 9 8 7 5 3 2 1 }   support: 0.00175747  frequency: 1
+26th: 8 { 12 10 9 8 7 5 2 1 }   support: 0.00175747  frequency: 1
+27th: 7 { 14 9 8 7 5 2 1 }   support: 0.00175747  frequency: 1
+
+frequencyThreshold: 1
+=================================================================

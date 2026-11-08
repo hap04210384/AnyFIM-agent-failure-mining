@@ -1,0 +1,165 @@
+{
+ "source": "guardrail_curve.json k_curve (admission c' >= 5)",
+ "eval_pool": {
+  "n_eval": 1000,
+  "n_fail": 269,
+  "base_fail_rate": 0.269
+ },
+ "n_admissible_rules": 72942,
+ "marginal_blocks": [
+  {
+   "k_from": 1,
+   "k_to": 2,
+   "n_rules": 1,
+   "marginal_recall_gain": 0.0,
+   "marginal_recall_gain_per_100_rules": 0.0,
+   "marginal_coverage_cost": 0.0,
+   "marginal_fir_change": 0.0,
+   "lift_at_to": 1.862
+  },
+  {
+   "k_from": 2,
+   "k_to": 3,
+   "n_rules": 1,
+   "marginal_recall_gain": 0.0,
+   "marginal_recall_gain_per_100_rules": 0.0,
+   "marginal_coverage_cost": 0.0,
+   "marginal_fir_change": 0.0,
+   "lift_at_to": 1.862
+  },
+  {
+   "k_from": 3,
+   "k_to": 5,
+   "n_rules": 2,
+   "marginal_recall_gain": 0.0075,
+   "marginal_recall_gain_per_100_rules": 0.375,
+   "marginal_coverage_cost": 0.002,
+   "marginal_fir_change": -0.25,
+   "lift_at_to": 2.808
+  },
+  {
+   "k_from": 5,
+   "k_to": 10,
+   "n_rules": 5,
+   "marginal_recall_gain": 0.0148,
+   "marginal_recall_gain_per_100_rules": 0.296,
+   "marginal_coverage_cost": 0.007,
+   "marginal_fir_change": 0.1136,
+   "lift_at_to": 2.402
+  },
+  {
+   "k_from": 10,
+   "k_to": 20,
+   "n_rules": 10,
+   "marginal_recall_gain": 0.0409,
+   "marginal_recall_gain_per_100_rules": 0.409,
+   "marginal_coverage_cost": 0.021,
+   "marginal_fir_change": 0.0739,
+   "lift_at_to": 2.169
+  },
+  {
+   "k_from": 20,
+   "k_to": 50,
+   "n_rules": 30,
+   "marginal_recall_gain": 0.0112,
+   "marginal_recall_gain_per_100_rules": 0.0373,
+   "marginal_coverage_cost": 0.011,
+   "marginal_fir_change": 0.0741,
+   "lift_at_to": 1.885
+  },
+  {
+   "k_from": 50,
+   "k_to": 100,
+   "n_rules": 50,
+   "marginal_recall_gain": 0.026,
+   "marginal_recall_gain_per_100_rules": 0.052,
+   "marginal_coverage_cost": 0.024,
+   "marginal_fir_change": 0.0705,
+   "lift_at_to": 1.618
+  },
+  {
+   "k_from": 100,
+   "k_to": 150,
+   "n_rules": 50,
+   "marginal_recall_gain": 0.0186,
+   "marginal_recall_gain_per_100_rules": 0.0372,
+   "marginal_coverage_cost": 0.007,
+   "marginal_fir_change": -0.028,
+   "lift_at_to": 1.75
+  },
+  {
+   "k_from": 150,
+   "k_to": 200,
+   "n_rules": 50,
+   "marginal_recall_gain": 0.0148,
+   "marginal_recall_gain_per_100_rules": 0.0296,
+   "marginal_coverage_cost": 0.007,
+   "marginal_fir_change": -0.0109,
+   "lift_at_to": 1.809
+  },
+  {
+   "k_from": 200,
+   "k_to": 300,
+   "n_rules": 100,
+   "marginal_recall_gain": 0.0075,
+   "marginal_recall_gain_per_100_rules": 0.0075,
+   "marginal_coverage_cost": 0.009,
+   "marginal_fir_change": 0.0235,
+   "lift_at_to": 1.714
+  },
+  {
+   "k_from": 300,
+   "k_to": 400,
+   "n_rules": 100,
+   "marginal_recall_gain": 0.0446,
+   "marginal_recall_gain_per_100_rules": 0.0446,
+   "marginal_coverage_cost": 0.027,
+   "marginal_fir_change": -0.0026,
+   "lift_at_to": 1.766
+  },
+  {
+   "k_from": 400,
+   "k_to": 500,
+   "n_rules": 100,
+   "marginal_recall_gain": 0.026,
+   "marginal_recall_gain_per_100_rules": 0.026,
+   "marginal_coverage_cost": 0.019,
+   "marginal_fir_change": 0.0094,
+   "lift_at_to": 1.746
+  },
+  {
+   "k_from": 500,
+   "k_to": 600,
+   "n_rules": 100,
+   "marginal_recall_gain": 0.0372,
+   "marginal_recall_gain_per_100_rules": 0.0372,
+   "marginal_coverage_cost": 0.025,
+   "marginal_fir_change": 0.0041,
+   "lift_at_to": 1.763
+  },
+  {
+   "k_from": 600,
+   "k_to": 700,
+   "n_rules": 100,
+   "marginal_recall_gain": 0.0186,
+   "marginal_recall_gain_per_100_rules": 0.0186,
+   "marginal_coverage_cost": 0.014,
+   "marginal_fir_change": 0.0053,
+   "lift_at_to": 1.756
+  }
+ ],
+ "knee_point_last_k_with_ge_1pp_gain": 700,
+ "summary": {
+  "first_100_rules": {
+   "recall_gain": 0.0632,
+   "coverage_cost": 0.03
+  },
+  "full_admission": {
+   "k": 700,
+   "coverage": 0.175,
+   "recall": 0.2714,
+   "lift": 1.756,
+   "false_interception_rate": 0.5829
+  }
+ }
+}

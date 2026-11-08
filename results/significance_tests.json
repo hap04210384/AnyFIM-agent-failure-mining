@@ -1,0 +1,93 @@
+{
+  "interception_fisher": [
+    {
+      "k": 1,
+      "n_intercepted": 2,
+      "n_intercepted_failed": 1,
+      "lift": 1.86,
+      "false_interception_rate": 0.5,
+      "fisher_p": 0.4658358358358358
+    },
+    {
+      "k": 3,
+      "n_intercepted": 2,
+      "n_intercepted_failed": 1,
+      "lift": 1.86,
+      "false_interception_rate": 0.5,
+      "fisher_p": 0.4658358358358358
+    },
+    {
+      "k": 5,
+      "n_intercepted": 4,
+      "n_intercepted_failed": 3,
+      "lift": 2.81,
+      "false_interception_rate": 0.25,
+      "fisher_p": 0.0617728772927435
+    },
+    {
+      "k": 10,
+      "n_intercepted": 11,
+      "n_intercepted_failed": 7,
+      "lift": 2.4,
+      "false_interception_rate": 0.3636,
+      "fisher_p": 0.011192680350615686
+    },
+    {
+      "k": 20,
+      "n_intercepted": 32,
+      "n_intercepted_failed": 18,
+      "lift": 2.17,
+      "false_interception_rate": 0.4375,
+      "fisher_p": 0.0003820236019439245
+    },
+    {
+      "k": 50,
+      "n_intercepted": 43,
+      "n_intercepted_failed": 21,
+      "lift": 1.88,
+      "false_interception_rate": 0.5116,
+      "fisher_p": 0.002260098132561972
+    },
+    {
+      "k": 100,
+      "n_intercepted": 67,
+      "n_intercepted_failed": 28,
+      "lift": 1.62,
+      "false_interception_rate": 0.5821,
+      "fisher_p": 0.0064156942645386805
+    }
+  ],
+  "baseline_grid_spearman": {
+    "FPGrowth_itemsets": {
+      "n_runs": 20,
+      "n_timeouts": 0,
+      "patterns_spearman_rho": -1.0,
+      "patterns_p": 0.0,
+      "time_spearman_rho": -0.8770214986520005,
+      "time_p": 3.8782841480415044e-07
+    },
+    "PrefixSpan": {
+      "n_runs": 20,
+      "n_timeouts": 12,
+      "patterns_spearman_rho": -1.0,
+      "patterns_p": 0.0,
+      "time_spearman_rho": -0.8859810415663745,
+      "time_p": 2.0309704990485446e-07
+    },
+    "VMSP": {
+      "n_runs": 20,
+      "n_timeouts": 15,
+      "patterns_spearman_rho": -0.9999999999999999,
+      "patterns_p": 1.4042654220543602e-24,
+      "time_spearman_rho": -0.7608859102526822,
+      "time_p": 9.801942624370674e-05
+    }
+  },
+  "sweep_recall100": {
+    "n": 8,
+    "mean": 0.1263875,
+    "std": 0.022104714267710927,
+    "min": 0.0967,
+    "max": 0.1524
+  }
+}

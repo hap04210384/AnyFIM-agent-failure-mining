@@ -1,0 +1,379 @@
+{
+  "seed": 42,
+  "k_sweep": [
+    5,
+    10,
+    20,
+    50,
+    100
+  ],
+  "min_contrast": 5.0,
+  "min_support_rel": 0.01,
+  "eval_pool": {
+    "n": 1000,
+    "n_fail": 269
+  },
+  "alphabet": "full-pool signature coupling (not varied)",
+  "results": [
+    {
+      "n_instances": 200,
+      "maxlen": 3,
+      "floor": 5,
+      "wall_s": 0.9,
+      "recall_at": {
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0223,
+        "50": 0.1078,
+        "100": 0.1338,
+        "all": 0.2342
+      },
+      "n_rules": 216,
+      "n_chains": 8389,
+      "n_perfect_rules": 19,
+      "coverage_at_5": 0.0,
+      "coverage_at_10": 0.0,
+      "coverage_at_20": 0.012,
+      "coverage_at_50": 0.056,
+      "coverage_at_100": 0.083
+    },
+    {
+      "n_instances": 200,
+      "maxlen": 3,
+      "floor": 10,
+      "wall_s": 0.8,
+      "recall_at": {
+        "5": 0.0558,
+        "10": 0.0632,
+        "20": 0.0929,
+        "all": 0.1822
+      },
+      "n_rules": 47,
+      "n_chains": 5283,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.021,
+      "coverage_at_10": 0.026,
+      "coverage_at_20": 0.041
+    },
+    {
+      "n_instances": 200,
+      "maxlen": 3,
+      "floor": 20,
+      "wall_s": 0.6,
+      "recall_at": {
+        "5": 0.052,
+        "10": 0.1041,
+        "all": 0.1041
+      },
+      "n_rules": 13,
+      "n_chains": 3176,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.02,
+      "coverage_at_10": 0.048
+    },
+    {
+      "n_instances": 200,
+      "maxlen": 4,
+      "floor": 5,
+      "wall_s": 18.4,
+      "recall_at": {
+        "5": 0.0186,
+        "10": 0.0409,
+        "20": 0.0483,
+        "50": 0.0669,
+        "100": 0.0967,
+        "all": 0.3457
+      },
+      "n_rules": 2560,
+      "n_chains": 75191,
+      "n_perfect_rules": 152,
+      "coverage_at_5": 0.013,
+      "coverage_at_10": 0.024,
+      "coverage_at_20": 0.027,
+      "coverage_at_50": 0.047,
+      "coverage_at_100": 0.066
+    },
+    {
+      "n_instances": 200,
+      "maxlen": 4,
+      "floor": 10,
+      "wall_s": 18.2,
+      "recall_at": {
+        "5": 0.0372,
+        "10": 0.0446,
+        "20": 0.0818,
+        "50": 0.0967,
+        "100": 0.1524,
+        "all": 0.2491
+      },
+      "n_rules": 448,
+      "n_chains": 40878,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.016,
+      "coverage_at_10": 0.019,
+      "coverage_at_20": 0.033,
+      "coverage_at_50": 0.046,
+      "coverage_at_100": 0.083
+    },
+    {
+      "n_instances": 200,
+      "maxlen": 4,
+      "floor": 20,
+      "wall_s": 14.2,
+      "recall_at": {
+        "5": 0.0372,
+        "10": 0.0483,
+        "20": 0.052,
+        "all": 0.1338
+      },
+      "n_rules": 43,
+      "n_chains": 19985,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.015,
+      "coverage_at_10": 0.019,
+      "coverage_at_20": 0.02
+    },
+    {
+      "n_instances": 300,
+      "maxlen": 3,
+      "floor": 5,
+      "wall_s": 1.6,
+      "recall_at": {
+        "5": 0.026,
+        "10": 0.0483,
+        "20": 0.1078,
+        "50": 0.1487,
+        "all": 0.2193
+      },
+      "n_rules": 80,
+      "n_chains": 10700,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.018,
+      "coverage_at_10": 0.03,
+      "coverage_at_20": 0.054,
+      "coverage_at_50": 0.078
+    },
+    {
+      "n_instances": 300,
+      "maxlen": 3,
+      "floor": 10,
+      "wall_s": 1.4,
+      "recall_at": {
+        "5": 0.0669,
+        "10": 0.0855,
+        "20": 0.1115,
+        "50": 0.1896,
+        "all": 0.1896
+      },
+      "n_rules": 50,
+      "n_chains": 6843,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.032,
+      "coverage_at_10": 0.041,
+      "coverage_at_20": 0.054,
+      "coverage_at_50": 0.099
+    },
+    {
+      "n_instances": 300,
+      "maxlen": 3,
+      "floor": 20,
+      "wall_s": 1.1,
+      "recall_at": {
+        "5": 0.052,
+        "10": 0.0595,
+        "all": 0.1264
+      },
+      "n_rules": 14,
+      "n_chains": 4202,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.02,
+      "coverage_at_10": 0.025
+    },
+    {
+      "n_instances": 300,
+      "maxlen": 4,
+      "floor": 5,
+      "wall_s": 41.1,
+      "recall_at": {
+        "5": 0.0409,
+        "10": 0.0558,
+        "20": 0.0781,
+        "50": 0.1004,
+        "100": 0.1375,
+        "all": 0.3123
+      },
+      "n_rules": 944,
+      "n_chains": 104013,
+      "n_perfect_rules": 2,
+      "coverage_at_5": 0.026,
+      "coverage_at_10": 0.031,
+      "coverage_at_20": 0.041,
+      "coverage_at_50": 0.053,
+      "coverage_at_100": 0.073
+    },
+    {
+      "n_instances": 300,
+      "maxlen": 4,
+      "floor": 10,
+      "wall_s": 21.8,
+      "recall_at": {
+        "5": 0.0409,
+        "10": 0.0632,
+        "20": 0.0818,
+        "50": 0.1264,
+        "100": 0.1524,
+        "all": 0.2788
+      },
+      "n_rules": 504,
+      "n_chains": 58078,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.024,
+      "coverage_at_10": 0.034,
+      "coverage_at_20": 0.04,
+      "coverage_at_50": 0.07,
+      "coverage_at_100": 0.084
+    },
+    {
+      "n_instances": 300,
+      "maxlen": 4,
+      "floor": 20,
+      "wall_s": 9.5,
+      "recall_at": {
+        "5": 0.0483,
+        "10": 0.0483,
+        "20": 0.0483,
+        "50": 0.1561,
+        "all": 0.1636
+      },
+      "n_rules": 61,
+      "n_chains": 30250,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.018,
+      "coverage_at_10": 0.019,
+      "coverage_at_20": 0.019,
+      "coverage_at_50": 0.078
+    },
+    {
+      "n_instances": 400,
+      "maxlen": 3,
+      "floor": 5,
+      "wall_s": 2.2,
+      "recall_at": {
+        "5": 0.026,
+        "10": 0.0855,
+        "20": 0.1078,
+        "50": 0.1264,
+        "all": 0.1301
+      },
+      "n_rules": 51,
+      "n_chains": 12617,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.012,
+      "coverage_at_10": 0.042,
+      "coverage_at_20": 0.051,
+      "coverage_at_50": 0.07
+    },
+    {
+      "n_instances": 400,
+      "maxlen": 3,
+      "floor": 10,
+      "wall_s": 2.0,
+      "recall_at": {
+        "5": 0.026,
+        "10": 0.0855,
+        "20": 0.1078,
+        "50": 0.1264,
+        "all": 0.1301
+      },
+      "n_rules": 51,
+      "n_chains": 8208,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.012,
+      "coverage_at_10": 0.042,
+      "coverage_at_20": 0.051,
+      "coverage_at_50": 0.07
+    },
+    {
+      "n_instances": 400,
+      "maxlen": 3,
+      "floor": 20,
+      "wall_s": 1.7,
+      "recall_at": {
+        "5": 0.0483,
+        "10": 0.0743,
+        "all": 0.0818
+      },
+      "n_rules": 14,
+      "n_chains": 5236,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.019,
+      "coverage_at_10": 0.032
+    },
+    {
+      "n_instances": 400,
+      "maxlen": 4,
+      "floor": 5,
+      "wall_s": 83.9,
+      "recall_at": {
+        "5": 0.0112,
+        "10": 0.026,
+        "20": 0.0669,
+        "50": 0.0781,
+        "100": 0.1041,
+        "all": 0.2751
+      },
+      "n_rules": 731,
+      "n_chains": 126404,
+      "n_perfect_rules": 2,
+      "coverage_at_5": 0.004,
+      "coverage_at_10": 0.011,
+      "coverage_at_20": 0.032,
+      "coverage_at_50": 0.043,
+      "coverage_at_100": 0.067
+    },
+    {
+      "n_instances": 400,
+      "maxlen": 4,
+      "floor": 10,
+      "wall_s": 53.6,
+      "recall_at": {
+        "5": 0.0112,
+        "10": 0.026,
+        "20": 0.0669,
+        "50": 0.0781,
+        "100": 0.1041,
+        "all": 0.2751
+      },
+      "n_rules": 731,
+      "n_chains": 72972,
+      "n_perfect_rules": 2,
+      "coverage_at_5": 0.004,
+      "coverage_at_10": 0.011,
+      "coverage_at_20": 0.032,
+      "coverage_at_50": 0.043,
+      "coverage_at_100": 0.067
+    },
+    {
+      "n_instances": 400,
+      "maxlen": 4,
+      "floor": 20,
+      "wall_s": 28.5,
+      "recall_at": {
+        "5": 0.0558,
+        "10": 0.0743,
+        "20": 0.0743,
+        "50": 0.1078,
+        "100": 0.1301,
+        "all": 0.1487
+      },
+      "n_rules": 117,
+      "n_chains": 40090,
+      "n_perfect_rules": 0,
+      "coverage_at_5": 0.025,
+      "coverage_at_10": 0.032,
+      "coverage_at_20": 0.033,
+      "coverage_at_50": 0.051,
+      "coverage_at_100": 0.064
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+data/encoded/
+data/encoded_webarena/
+__pycache__/
+*.pyc
+figures/

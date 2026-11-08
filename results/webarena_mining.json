@@ -1,0 +1,138 @@
+{
+  "corpus": "WebArena GPT-4 CoT official release 2 (809 tasks; Agent-Eval-Refine extraction, HF)",
+  "split": {
+    "mine_fail": 569,
+    "mine_succ": 78,
+    "eval_fail": 140,
+    "eval_succ": 22
+  },
+  "params": {
+    "min_total": 5,
+    "maxlen": 4,
+    "min_contrast": 5.0,
+    "min_support_rel": 0.01
+  },
+  "wall_s": 0.1,
+  "signatures": {
+    "n": 216,
+    "n_cprime_ge2": 15,
+    "n_perfect": 73
+  },
+  "chains": {
+    "n": 1151,
+    "len_dist": {
+      "1": 4,
+      "2": 14,
+      "3": 50,
+      "4": 1083
+    },
+    "n_rules_admitted_c5": 1,
+    "n_rules_admitted_c2": 92
+  },
+  "guardrail_k_sweep_c5": [
+    {
+      "k": 1,
+      "n_rules": 1,
+      "coverage": 0.0556,
+      "intercepted_fail_rate": 0.8889,
+      "unintercepted_fail_rate": 0.8627,
+      "lift": 1.03,
+      "false_interception_rate": 0.1111,
+      "recall": 0.0571
+    }
+  ],
+  "guardrail_k_sweep_c2": [
+    {
+      "k": 1,
+      "n_rules": 1,
+      "coverage": 0.0556,
+      "intercepted_fail_rate": 0.8889,
+      "unintercepted_fail_rate": 0.8627,
+      "lift": 1.03,
+      "false_interception_rate": 0.1111,
+      "recall": 0.0571
+    },
+    {
+      "k": 3,
+      "n_rules": 3,
+      "coverage": 0.1481,
+      "intercepted_fail_rate": 0.8333,
+      "unintercepted_fail_rate": 0.8696,
+      "lift": 0.96,
+      "false_interception_rate": 0.1667,
+      "recall": 0.1429
+    },
+    {
+      "k": 5,
+      "n_rules": 5,
+      "coverage": 0.1667,
+      "intercepted_fail_rate": 0.8519,
+      "unintercepted_fail_rate": 0.8667,
+      "lift": 0.98,
+      "false_interception_rate": 0.1481,
+      "recall": 0.1643
+    },
+    {
+      "k": 10,
+      "n_rules": 10,
+      "coverage": 0.1914,
+      "intercepted_fail_rate": 0.871,
+      "unintercepted_fail_rate": 0.8626,
+      "lift": 1.01,
+      "false_interception_rate": 0.129,
+      "recall": 0.1929
+    },
+    {
+      "k": 20,
+      "n_rules": 20,
+      "coverage": 0.1975,
+      "intercepted_fail_rate": 0.875,
+      "unintercepted_fail_rate": 0.8615,
+      "lift": 1.02,
+      "false_interception_rate": 0.125,
+      "recall": 0.2
+    },
+    {
+      "k": 50,
+      "n_rules": 50,
+      "coverage": 0.216,
+      "intercepted_fail_rate": 0.8857,
+      "unintercepted_fail_rate": 0.8583,
+      "lift": 1.03,
+      "false_interception_rate": 0.1143,
+      "recall": 0.2214
+    }
+  ],
+  "top5_rules": [
+    {
+      "chain": "none:err -> click:ok -> click:ok -> stop:ok",
+      "c'": 5.37,
+      "supp_fail": 0.0689,
+      "perfect": true
+    },
+    {
+      "chain": "scroll:ok -> scroll:ok -> scroll:ok -> stop:ok",
+      "c'": 4.96,
+      "supp_fail": 0.0636,
+      "perfect": true
+    },
+    {
+      "chain": "click:ok -> none:err -> click:ok -> click:ok",
+      "c'": 4.96,
+      "supp_fail": 0.0636,
+      "perfect": true
+    },
+    {
+      "chain": "none:err -> click:ok -> click:ok -> click:ok",
+      "c'": 4.82,
+      "supp_fail": 0.0618,
+      "perfect": true
+    },
+    {
+      "chain": "none:err -> type:ok -> stop:ok",
+      "c'": 4.69,
+      "supp_fail": 0.0601,
+      "perfect": true
+    }
+  ]
+}

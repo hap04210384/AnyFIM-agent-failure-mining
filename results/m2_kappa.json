@@ -1,0 +1,19 @@
+{
+  "n_common": 100,
+  "observed_agreement": 1.0,
+  "cohens_kappa": 1.0,
+  "per_category": {
+    "C01": 1.0,
+    "C02": 1.0,
+    "C03": 1.0,
+    "C04": 1.0,
+    "C05": 1.0,
+    "C06": 1.0
+  },
+  "n_disagree": 0,
+  "disagreements": [],
+  "sources": [
+    "data/annotation/annotator_A_coded.csv",
+    "data/annotation/annotator_B_coded.csv"
+  ]
+}

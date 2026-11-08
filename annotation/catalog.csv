@@ -1,0 +1,7 @@
+﻿code,label_en,definition_zh,example_free_text,count_A,count_B
+C01,Directory wandering without substantive work,纯目录切换打转（cd 循环），无文件查看/修改等实质操作,全程只在目录间切换，从未查看或修改文件，没有实质进展,45,45
+C02,Failed repair loop,项目测试或验证脚本反复报错，修复尝试始终未成功,测试 pytest 报错后尝试修复，python 验证仍报错，最终放弃,19,19
+C03,Unverified changes,有实质修改但从未运行测试/项目测试，改动有效性无法确认,做了大量修改但从未运行测试，改动是否有效无从确认,17,17
+C04,Environment/dependency failure,pip 安装失败、export/source 环境激活失败、python 环境报错,安装与验证环节 pip 反复出错，依赖一直没装好,4,4
+C05,Process-breaking command errors,探索/修改阶段 cd/grep/cat/git 等反复报错，路径混乱、流程被打断,修改过程被频繁的 cd 报错打断，流程混乱，未验证,11,11
+C06,Invalid-command death loop,不常见/不明命令（other）连续报错的死循环,中期陷入同一种命令 other 连续报错的死循环约 30 次,4,4

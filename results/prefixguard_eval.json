@@ -1,0 +1,126 @@
+{
+  "config": {
+    "encoder_type": "tfidf",
+    "representation_mode": "source-raw",
+    "step_view_frontend": "inferred",
+    "num_symbols": 32,
+    "q_max": 32,
+    "horizon": 3,
+    "warning_model_type": "symbol-gru",
+    "selection_metric": "direct-soft",
+    "seed": 1,
+    "epochs": 24
+  },
+  "pool": {
+    "n_eval": 991,
+    "n_fail": 269,
+    "base_fail_rate": 0.2714
+  },
+  "trajectory_level": {
+    "auroc": 0.4892,
+    "auprc": 0.2659,
+    "score": "max prefix risk"
+  },
+  "prefix_level_native": {
+    "auroc": 0.9094,
+    "auprc": 0.1838,
+    "n_prefixes": 51290,
+    "prefix_positive_rate": 0.021,
+    "label_semantics": "failure within horizon=3 steps of the prefix (PrefixGuard's native per-prefix detection metric)"
+  },
+  "diagnosis": {
+    "mean_steps_failed": 62.9,
+    "mean_steps_success": 47.6,
+    "mean_last_prefix_risk_failed": 0.3166,
+    "mean_last_prefix_risk_success": 0.3294,
+    "note": "per-prefix labels are horizon-bounded detection labels (failure within `horizon` steps); the strong prefix AUROC reflects risk rising right before failure events, not class discrimination between whole trajectories"
+  },
+  "prefixguard_own_operating_point": {
+    "m": 511,
+    "coverage": 0.5156,
+    "intercepted_fail_rate": 0.2603,
+    "unintercepted_fail_rate": 0.2833,
+    "lift": 0.92,
+    "false_interception_rate": 0.7397,
+    "recall": 0.4944,
+    "threshold": 0.3395645320415497
+  },
+  "coverage_matched_to_table3": {
+    "k=1": {
+      "m": 2,
+      "coverage": 0.002,
+      "intercepted_fail_rate": 0.5,
+      "unintercepted_fail_rate": 0.271,
+      "lift": 1.85,
+      "false_interception_rate": 0.5,
+      "recall": 0.0037
+    },
+    "k=3": {
+      "m": 2,
+      "coverage": 0.002,
+      "intercepted_fail_rate": 0.5,
+      "unintercepted_fail_rate": 0.271,
+      "lift": 1.85,
+      "false_interception_rate": 0.5,
+      "recall": 0.0037
+    },
+    "k=5": {
+      "m": 4,
+      "coverage": 0.004,
+      "intercepted_fail_rate": 0.25,
+      "unintercepted_fail_rate": 0.2715,
+      "lift": 0.92,
+      "false_interception_rate": 0.75,
+      "recall": 0.0037
+    },
+    "k=10": {
+      "m": 11,
+      "coverage": 0.0111,
+      "intercepted_fail_rate": 0.2727,
+      "unintercepted_fail_rate": 0.2714,
+      "lift": 1.0,
+      "false_interception_rate": 0.7273,
+      "recall": 0.0112
+    },
+    "k=20": {
+      "m": 32,
+      "coverage": 0.0323,
+      "intercepted_fail_rate": 0.25,
+      "unintercepted_fail_rate": 0.2722,
+      "lift": 0.92,
+      "false_interception_rate": 0.75,
+      "recall": 0.0297
+    },
+    "k=50": {
+      "m": 43,
+      "coverage": 0.0434,
+      "intercepted_fail_rate": 0.2093,
+      "unintercepted_fail_rate": 0.2743,
+      "lift": 0.76,
+      "false_interception_rate": 0.7907,
+      "recall": 0.0335
+    },
+    "k=100": {
+      "m": 66,
+      "coverage": 0.0666,
+      "intercepted_fail_rate": 0.2424,
+      "unintercepted_fail_rate": 0.2735,
+      "lift": 0.89,
+      "false_interception_rate": 0.7576,
+      "recall": 0.0595
+    }
+  },
+  "overhead": {
+    "inference_wall_s": 86.07,
+    "eval_trajectories": 991,
+    "eval_steps": 51290,
+    "ms_per_step": 0.436
+  },
+  "training_overhead": {
+    "wall_clock_min": 20,
+    "detail": "TF-IDF precompute + 24 epochs (soft-only per-epoch validation, official --final-best-paired-validation flag) on CPU; final paired DFA hardening validation not completed on this hardware (EDSM induction >25 min on 2,180/676 traces, interrupted); best epoch 8 selected by soft_AUPRC",
+    "device": "cpu (torch 2.14.0+cpu)",
+    "code": "github.com/shinmohuang/PrefixGuard @ public main (zip 2026-09-29), MIT",
+    "config": "terminal-domain manifest: tfidf encoder, source-raw full text, inferred frontend, symbol-gru head, k=32 symbols, q=32 states, horizon=3, batch 64, seed 1"
+  }
+}

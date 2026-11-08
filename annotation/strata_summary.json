@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "n_target": 100,
+  "strata": {
+    "mid|err=True": {
+      "pool": 123,
+      "picked": 45
+    },
+    "long|err=True": {
+      "pool": 53,
+      "picked": 20
+    },
+    "short|err=True": {
+      "pool": 92,
+      "picked": 34
+    },
+    "short|err=False": {
+      "pool": 1,
+      "picked": 1
+    }
+  }
+}

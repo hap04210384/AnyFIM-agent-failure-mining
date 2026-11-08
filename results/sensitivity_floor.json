@@ -1,0 +1,37 @@
+{
+ "n_fail": 995,
+ "n_succ": 3003,
+ "floors": {
+  "10": {
+   "level_counts": {
+    "1": 35,
+    "2": 655,
+    "3": 7690,
+    "4": 67344
+   },
+   "n_delivered": 75724,
+   "n_low_support_5_9": 0,
+   "low_support_max_contrast_sm": null,
+   "low_support_median_contrast_sm": null,
+   "low_support_p25_contrast_sm": null,
+   "low_support_p75_contrast_sm": null,
+   "low_support_share_csm_ge5": null
+  },
+  "5": {
+   "level_counts": {
+    "1": 41,
+    "2": 873,
+    "3": 12051,
+    "4": 120176
+   },
+   "n_delivered": 133141,
+   "n_low_support_5_9": 57417,
+   "low_support_max_contrast_sm": 24.14,
+   "low_support_median_contrast_sm": 1.51,
+   "low_support_p25_contrast_sm": 1.06,
+   "low_support_p75_contrast_sm": 2.26,
+   "low_support_share_csm_ge5": 0.0525
+  }
+ },
+ "wall_time_s": 52.01
+}

@@ -1,0 +1,10 @@
+{
+  "wall_time_s": 87.91,
+  "n_chains": 72972,
+  "n_perfect": 2,
+  "smoothing": "c' = sf / (ss + 1/n_S), n_S = succeeding-pool size",
+  "n_fail_seqs": 995,
+  "n_fail_seqs_unique": 905,
+  "n_succ_seqs": 3003,
+  "n_succ_seqs_unique": 2693
+}
